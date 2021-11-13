@@ -17,7 +17,7 @@ class MemoriesApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Memories App',
       theme: theme,
-      home: Home(),
+      home: const Home(),
     );
   }
 }

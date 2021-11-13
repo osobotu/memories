@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:memories/widgets/memory_tile.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
@@ -17,10 +18,18 @@ class _HomeState extends State<Home> {
           style: Theme.of(context).textTheme.headline1,
         ),
       ),
+      body: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 16.0),
+        child: ListView(
+          children: [
+            MemoryTile(),
+            MemoryTile(),
+            MemoryTile(),
+            MemoryTile(),
+            MemoryTile(),
+          ],
+        ),
+      ),
     );
   }
-}
-
-screenWidth({required BuildContext context, double percent = 1.0}) {
-  return MediaQuery.of(context).size.width * percent;
 }

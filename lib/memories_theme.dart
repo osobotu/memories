@@ -22,7 +22,7 @@ class MemoriesTheme {
       color: kLightThemeTextColor,
     ),
     headline3: GoogleFonts.nunitoSans(
-      fontSize: 8.0,
+      fontSize: 10.0,
       fontWeight: FontWeight.w500,
       color: kLightThemeTextColor,
     ),
@@ -45,7 +45,7 @@ class MemoriesTheme {
       color: kDarkThemeTextColor,
     ),
     headline3: GoogleFonts.nunitoSans(
-      fontSize: 8.0,
+      fontSize: 10.0,
       fontWeight: FontWeight.w500,
       color: kDarkThemeTextColor,
     ),
@@ -67,7 +67,7 @@ class MemoriesTheme {
     return ThemeData(
       brightness: Brightness.dark,
       primaryColor: Colors.blueGrey,
-      accentColor: Colors.pink[500],
+      accentColor: Colors.grey,
       textTheme: darkTextTheme,
     );
   }
