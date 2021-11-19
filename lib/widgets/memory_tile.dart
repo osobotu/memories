@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:memories/utlis/spacer.dart';
+import 'package:memories/utils/spacer.dart';
 
 class MemoryTile extends StatelessWidget {
   const MemoryTile({

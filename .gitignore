@@ -44,3 +44,7 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# generated stacked router and locator files
+lib/app/app.router.dart
+lib/app/app.locator.dart
